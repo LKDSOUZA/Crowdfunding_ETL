@@ -35,3 +35,12 @@ CREATE TABLE contacts (
     Email VARCHAR(50) NOT NULL,
     PRIMARY KEY (contact_id)   
 );
+
+-- Reviewing table creation for errors
+SELECT * FROM campaign;
+-- Reviewing table creation for errors
+SELECT * FROM contacts;
+-- Reviewing table creation for errors
+SELECT * FROM category;
+-- Reviewing table creation for errors
+SELECT * FROM subcategory;
