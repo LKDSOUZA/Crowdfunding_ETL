@@ -21,3 +21,17 @@ CREATE TABLE category (
     PRIMARY KEY (category_id)
 	
 );
+
+CREATE TABLE subcategory (
+    subcategory_id VARCHAR(50) NOT NULL,
+    subcategory_name VARCHAR(50) NOT NULL,
+    PRIMARY KEY (subcategory_id)
+);
+
+CREATE TABLE contacts (
+    contact_id VARCHAR(50) NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    Email VARCHAR(50) NOT NULL,
+    PRIMARY KEY (contact_id)   
+);
